@@ -1,0 +1,7 @@
+runtime: java17  # Especifica la versión de Java
+instance_class: F1  # Clase de instancia para el rendimiento y costo
+
+automatic_scaling:  # Configura el escalado automático
+  target_cpu_utilization: 0.65
+  min_instances: 1
+  max_instances: 2
